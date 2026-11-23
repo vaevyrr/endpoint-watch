@@ -1,0 +1,17 @@
+{
+  "intervalSeconds": 60,
+  "timeoutMs": 8000,
+  "historyFile": "history.jsonl",
+  "endpoints": [
+    {
+      "name": "Example website",
+      "url": "https://example.com",
+      "expectedStatus": [200]
+    },
+    {
+      "name": "Example API",
+      "url": "https://httpbin.org/status/204",
+      "expectedStatus": [204]
+    }
+  ]
+}
